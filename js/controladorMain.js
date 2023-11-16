@@ -9,8 +9,8 @@ function leerObjeto(){
 }
 
 function actualizarObjeto(){
-    persona.actualizarObjeto();
+    persona.actualizaObjeto();
 }
 function eliminarObjeto(){
-    persona.eliminarObjeto();
+    persona.eliminaObjeto();
 }
