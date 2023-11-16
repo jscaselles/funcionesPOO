@@ -15,6 +15,10 @@ class Persona{
         var nombreH = document.getElementById("nombre").value;
         var passwordH = document.getElementById("pdw").value;
         var rolH = document.getElementById("rol").value;
+        if (!idH || !nombreH || !passwordH || !rolH) {
+            alert("Por favor, complete todos los campos.");
+            return;
+        }
         if (idsAgregados.includes(idH)) {
             alert("ID duplicado. No se pueden agregar datos duplicados.");
             return; 
